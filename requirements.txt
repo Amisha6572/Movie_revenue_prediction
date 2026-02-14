@@ -1,10 +1,10 @@
-scikit-learn
-xgboost
-lightgbm
+streamlit==1.32.2
 pandas
 numpy
-matplotlib
-seaborn
+scikit-learn
 joblib
 statsmodels
-streamlit
+xgboost
+lightgbm
+catboost
+altair==4.2.2
