@@ -1,0 +1,18 @@
+# Ignore environments
+myenv/
+my_env/
+venv/
+env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore CatBoost training logs
+catboost_info/
+
+# Ignore saved models (optional for Streamlit Cloud)
+*.pkl
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
