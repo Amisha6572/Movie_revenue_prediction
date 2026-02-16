@@ -13,6 +13,10 @@ catboost_info/
 
 # Ignore saved models (optional for Streamlit Cloud)
 *.pkl
+# Allow model files needed for deployment
+!best_movie_model.pkl
+!scaler.pkl
+!training_columns.pkl
 
 # Ignore Jupyter checkpoints
 .ipynb_checkpoints/
